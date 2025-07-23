@@ -274,9 +274,13 @@ body {
 }
 .read:hover
 {
-    background: #0ef;
-    color: #081b29;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 5px cyan,
+        0 0 20px cyan, 0 0 50px cyan,
+        0 0 100px cyan, 0 0 200px cyan;
+}
+.services-list div:hover
+{
+    transform: translateY(-10px);
 }
 
 
